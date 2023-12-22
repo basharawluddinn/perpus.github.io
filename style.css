@@ -1,0 +1,66 @@
+        header {
+            position: relative;
+            overflow: hidden;
+            background-image: url(img/header.jpg);
+            background-size: cover;
+        }
+header h1 {
+color: rgb(255, 255, 255);
+}
+       .video-container {
+    position: relative;
+    width: 3000px; /* Sesuaikan lebar sesuai kebutuhan */
+    height: 100vh; /* Sesuaikan tinggi sesuai kebutuhan, 100vh berarti 100% tinggi viewport */
+    overflow: hidden;
+    justify-content: center;
+    align-items: center;
+  padding-left: 10%;
+  padding-top: 2.5%;
+    background-image: url(img/hd.jpg);
+}
+.home {
+margin-left: 20px;
+margin-top: 20px;
+}
+.home a:hover {
+background-color: red;
+}
+        /* Menambahkan overlay hitam semi-transparan untuk teks */
+        header::before {
+            content: "";
+            position: absolute;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(0, 0, 0, 0.5); /* Warna latar belakang hitam semi-transparan */
+            z-index: -1;
+        }
+        .nav-link:hover {
+        background-color: orange;
+        color:white;
+        }
+        .navbar-brand:hover {
+        background-color: orange;
+        color: white;
+        }
+        .navbar-brand {
+        padding: 0;
+        margin: 0;
+        margin-right: 100px;
+        }
+
+        .navbar {
+        padding-left: 20px;
+        background-color: rgb(7, 238, 238);
+        }
+        .collapse {
+        justify-content: end;
+        align-items: end;
+        margin-right: 20px;
+        }
+.card {
+max-width: 80%;
+height: auto;
+}
+
